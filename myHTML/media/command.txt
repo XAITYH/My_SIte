@@ -1,0 +1,1 @@
+ffmpeg -i background-60.mp4 -vf scale=1920:-1 -movflags faststart -vcodec libx264 -crf 20 -g 1 -pix_fmt yuv420p background.mp4
