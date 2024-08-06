@@ -109,6 +109,7 @@ p {
 
 #my-photo {
   margin-top: 1%;
+  width: 25rem;
 }
 
 .skill-row {
@@ -134,6 +135,16 @@ p {
   padding: 5px;
   border-radius: 5%;
   background-color: #6adddd;
+}
+
+.myWorksHeading {
+  margin-top: 5%;
+}
+
+.exampleWork {
+  width: 40%;
+  border: none;
+  border-radius: 30px;
 }
 
 .contact-message {
@@ -168,9 +179,21 @@ p {
   text-decoration: none;
 }
 
+@media (max-width: 1000px) {
+  .exampleWork {
+    width: 70%;
+  }
+  #my-photo {
+    width: 20rem;
+  }
+}
+
 @media (max-width: 600px) {
     .mountain {
         width: 15rem;     
+    }
+    #my-photo {
+      width: 50%;
     }
 }
 
@@ -180,5 +203,8 @@ p {
         flex-direction: column;
         border: 2px solid #000;
         border-radius: 10px;
+    }
+    .exampleWork {
+      width: 80%;
     }
 }
