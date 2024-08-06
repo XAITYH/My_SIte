@@ -141,6 +141,14 @@ p {
   margin-top: 5%;
 }
 
+.exampleWorkLink {
+  transition: opacity 0.2s;
+}
+
+.exampleWorkLink:hover {
+  opacity: 0.5;
+}
+
 .exampleWork {
   width: 40%;
   border: none;
