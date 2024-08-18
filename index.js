@@ -24,3 +24,4 @@ let targets = document.querySelectorAll('.anim')
 targets.forEach(target => {
     observer.observe(target);
 });
+
