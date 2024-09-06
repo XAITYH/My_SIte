@@ -153,6 +153,7 @@ p {
   width: 40%;
   border: none;
   border-radius: 30px;
+  margin-top: 10px;
 }
 
 .contact-message {
